@@ -1,4 +1,4 @@
-# DIY LLM Quantization
+# Qwen3-14B Quantization
 
 From-scratch implementation of weight quantization for LLMs.
 
