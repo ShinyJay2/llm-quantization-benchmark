@@ -1,0 +1,29 @@
+[
+  {
+    "config": "torch.bfloat16 (baseline)",
+    "param_memory_mb": 28168.3,
+    "gpu_memory_mb": 28168.3,
+    "perplexity": 13.95,
+    "latency_s": 4.426,
+    "tokens_per_sec": 22.6,
+    "sample": "The future of artificial intelligence is a topic of both promise and peril, a landscape where the potential for transformative advancements is matched only by the risks they pose. As we stand on the brink of a new era, the question of whether AI will lead to ut or dystopia is not merely a matter of speculation but a critical that demands careful consideration and proactive measures. The development of AI is not a linear progression; it is a complex"
+  },
+  {
+    "config": "NF4 4-bit (BnB)",
+    "param_memory_mb": 9268.3,
+    "gpu_memory_mb": 9502.9,
+    "perplexity": 14.46,
+    "latency_s": 5.887,
+    "tokens_per_sec": 17.0,
+    "sample": "The future of artificial intelligence is a topic of both promise and peril, a landscape where the potential for transformative advancements is matched only by the risks they pose. As we stand on the brink of a new era, the question of whether AI will be our salvation or our downfall is not merely a matter of technological capability but a profound ethical and societal challenge. This unit delves into the dual-edged nature of AI, exploring its potential"
+  },
+  {
+    "config": "QLoRA (NF4+LoRA, 100 steps)",
+    "param_memory_mb": 12359.1,
+    "gpu_memory_mb": 12663.2,
+    "perplexity": 10.17,
+    "latency_s": 9.367,
+    "tokens_per_sec": 10.1,
+    "sample": "The future of artificial intelligence is a topic of both excitement and uncertainty. As AI continues to evolve, it is likely to become more integrated into our daily and work. This could lead to significant changes in various industries, including healthcare, education , and transportation. However, the widespread adoption of AI also raises important questions about its impact on employment, privacy, and ethics. As we move forward, it will be crucial to address these challenges"
+  }
+]
